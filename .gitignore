@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files
+*.db
+*.sqlite
+*.sqlite3
+
+# Model artifacts
+*.pkl
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
