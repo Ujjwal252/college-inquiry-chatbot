@@ -12,9 +12,13 @@ CLASSIFIER_MODEL_PATH = os.path.join(MODELS_DIR, "classifier.pkl")
 VECTORIZER_MODEL_PATH = os.path.join(MODELS_DIR, "vectorizer.pkl")
 TFIDF_MODEL_PATH = os.path.join(MODELS_DIR, "tfidf.pkl")
 
+# DB settings
+DB_PATH = os.path.join(DATA_DIR, "chatbot.db")
+
 # NLP settings
 CONFIDENCE_THRESHOLD = 0.35
 MAX_SUGGESTIONS = 3
+
 
 # UI settings
 APP_TITLE = "College Inquiry Chatbot"

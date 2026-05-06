@@ -2,14 +2,17 @@ from __future__ import annotations
 
 from datetime import datetime
 
+from src.database import ChatDatabase
 from src.predictor import IntentPredictor
 
 
 class ResponseEngine:
     def __init__(self):
         self.predictor = IntentPredictor()
+        self.db = ChatDatabase()
         self.chat_history: list[dict] = []
         self.starter_questions = [
+
             "What are the admission requirements?",
             "How much are the fees for engineering?",
             "When are the semester exams scheduled?",
@@ -150,13 +153,34 @@ class ResponseEngine:
         }
 
         self.chat_history.append(response)
+        # Persist conversation log
+        try:
+            self.db.log_conversation(
+                user_msg=user_input,
+                bot_response=bot_response,
+                intent=intent,
+                confidence=confidence,
+            )
+        except Exception:
+            # Logging must not break chat responses
+            pass
+
         return response
+
 
     def get_chat_history(self):
         return self.chat_history
 
     def clear_history(self):
         self.chat_history = []
+
+    def __del__(self):
+        # Best-effort close; prevents open connection warnings.
+        try:
+            self.db.close()
+        except Exception:
+            pass
+
 
     def get_suggested_questions(self):
         return self.starter_questions
