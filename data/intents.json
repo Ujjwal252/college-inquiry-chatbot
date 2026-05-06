@@ -1,1 +1,446 @@
-{}
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Good morning",
+        "Hey there",
+        "Hi bot",
+        "Hello college chatbot",
+        "Greetings",
+        "Hey",
+        "Hello, can you help me?",
+        "Hi, I have a question",
+        "Good afternoon",
+        "What’s up",
+        "Is anyone there?",
+        "Hi, I need information",
+        "Hello, I want details"
+      ],
+      "responses": [
+        "Hello! 😊 I’m your campus assistant for college info in Tamil Nadu. How can I help you today?",
+        "Hi there! 👋 Ask me anything about admission, fees, exams, hostel, placements, or campus facilities.",
+        "Welcome! 🙌 I’m here to guide you through college queries—just type your question."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks, bye",
+        "I’m done",
+        "Talk to you later",
+        "That’s all",
+        "Bye bot",
+        "Thanks for the help",
+        "I have no more questions",
+        "Take care",
+        "Catch you later",
+        "See ya",
+        "Ok bye",
+        "I’m leaving now"
+      ],
+      "responses": [
+        "Goodbye! 😊 If you need more help later, just come back and ask.",
+        "Take care! 👋 Wishing you all the best with your college journey.",
+        "Thanks for chatting! 📚 I’m here anytime you need more information."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "What is the 75 percent attendance rule?",
+        "How many lectures do I need to attend?",
+        "Can I get condonation for low attendance?",
+        "What happens if I miss classes?",
+        "How do I check attendance on portal?",
+        "Is 75% attendance mandatory for exams?",
+        "Tell me about attendance condonation process.",
+        "How to apply for attendance waiver?",
+        "Can I write semester exams with 70 percent attendance?",
+        "Where is attendance details in the student portal?",
+        "What is the policy for short attendance?",
+        "How much attendance is required for Anna University?",
+        "Does college allow condonation of attendance?",
+        "What is the last date to submit attendance excuse?",
+        "What documents are needed for attendance condonation?"
+      ],
+      "responses": [
+        "The college follows the **75% attendance rule** for all regular students. If you fall below this, you may need condonation from the principal. 📌",
+        "For short attendance, apply through the **student portal** with your medical or genuine reason. Condonation is granted only in special cases. ✅",
+        "Check the portal under **Attendance / Condonation**. If you have valid proof, submit it before the deadline to remain eligible for exams. 📝"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "What are the tuition fees?",
+        "How much is the lab fee?",
+        "Tell me the exam fee amount.",
+        "What is the hostel fee per semester?",
+        "How much do I pay for college fees?",
+        "Breakdown of fees for CSE students.",
+        "Do you have details on tuition and lab charges?",
+        "What is the annual fee structure?",
+        "How much is the semester tuition fee?",
+        "What are the hostel fees for boys?",
+        "What is the exam fee for Anna University?",
+        "Tell me about fees in rupees.",
+        "Is there a separate library or lab fee?",
+        "How much is the computer lab fee?",
+        "What are the total fees for first year?"
+      ],
+      "responses": [
+        "Current fee structure is roughly: **tuition ₹60,000/sem**, **lab ₹5,000/sem**, **exam ₹2,500/sem**, **hostel ₹40,000/sem**. Fees may vary by department. 💰",
+        "Tuition is about ₹60k per semester, lab charges around ₹5k, exam fee ₹2.5k, and hostel fee near ₹40k per semester. Check the finance office for exact details. 🏛️",
+        "For exact numbers, refer to the college website or the administration office. Typical fees: **tuition ₹60,000**, **lab ₹5,000**, **exam ₹2,500**, **hostel ₹40,000**. 📄"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": [
+        "When is the semester exam?",
+        "Tell me the internal exam dates.",
+        "When will arrear exams be held?",
+        "How do I get my hall ticket?",
+        "What is the exam timetable?",
+        "When are the internal tests scheduled?",
+        "When is the university semester exam?",
+        "How do I download the hall ticket?",
+        "What is the schedule for arrears?",
+        "When will the end semester exams begin?",
+        "Is the exam date sheet published?",
+        "How can I know exam dates on the portal?",
+        "When is the next internal assessment?",
+        "What is the date for the odd semester exam?",
+        "Where do I find hall ticket info?"
+      ],
+      "responses": [
+        "Internal exams are usually held 3 weeks before the semester exams. The exact dates are posted on the **student portal** and notice board. 🗓️",
+        "Semester exam and arrear schedules are released by **Anna University**. Download your hall ticket from the academic portal once the date sheet is available. 🎫",
+        "Keep an eye on the portal for the latest timetable. For arrear exams, the college announces the schedule one month before the exam window. 📌"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "What companies visit the campus?",
+        "Tell me about placements.",
+        "Do TCS and Infosys recruit here?",
+        "What is the average package?",
+        "How many students got placed?",
+        "What is the highest package?",
+        "What are the eligibility criteria for placement?",
+        "Which firms come for recruitment?",
+        "Are Zoho and Cognizant visiting?",
+        "What is the package in LPA?",
+        "How is the placement cell?",
+        "Can final-year students apply?",
+        "What branches have good placements?",
+        "What are selection rounds for placement?",
+        "Do they place CSE and ECE students?"
+      ],
+      "responses": [
+        "Top recruiters include **TCS, Infosys, Zoho, Wipro, and HCL**. Average package is about **4–5 LPA**, with highest offers going higher. 🚀",
+        "Placement eligibility typically requires **minimum 60% aggregate** and no active backlogs. Check the placement cell for branch-wise details. 🎯",
+        "Campus placements are strong in CSE/IT/ECE. Major companies like TCS, Infosys, and Zoho recruit regularly, often offering packages in the **4-7 LPA** range. 💼"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "How many boys can stay in the hostel?",
+        "What is the girls hostel capacity?",
+        "Tell me hostel facilities.",
+        "Is there a curfew in hostel?",
+        "Do hostels have Wi-Fi?",
+        "What rooms are available for students?",
+        "What are the hostel rules?",
+        "Is there 24-hour security?",
+        "Tell me about the hostel mess.",
+        "How many seats are there in boys hostel?",
+        "What facilities does the girls hostel offer?",
+        "Is there a strict curfew timing?",
+        "Do hostels provide laundry?",
+        "Does the hostel support private guests?",
+        "Where is the hostel located?"
+      ],
+      "responses": [
+        "The college has separate boys and girls hostels with around **300 seats each**. Facilities include mess, study hall, CCTV, and Wi-Fi. 🛏️",
+        "Hostel curfew is usually **10 PM on weekdays** and **12 AM on weekends**. Mess food, laundry, and security are available for residents. 🕘",
+        "Hostel amenities include clean rooms, common room, Wi-Fi, and 24/7 security. For exact capacity and fee details, contact the warden office. 🏨"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "What departments are available?",
+        "Do you have CSE and IT?",
+        "Tell me about ECE branch.",
+        "Is Mechanical engineering offered?",
+        "Do you have Civil engineering?",
+        "How many branches does the college have?",
+        "Is EEE available here?",
+        "What courses are there in the engineering college?",
+        "Can I join CSE?",
+        "What is the difference between CSE and IT?",
+        "Does the college offer ECE?",
+        "Is there a MECH department?",
+        "What are the top branches?",
+        "Are there any allied departments?",
+        "What branch has best placement?"
+      ],
+      "responses": [
+        "The college offers engineering branches like **CSE, IT, ECE, MECH, CIVIL, and EEE**. Each program is affiliated with **Anna University**. 🏫",
+        "Yes, we have major departments including **Computer Science, Information Technology, Electronics, Mechanical, Civil, and Electrical**. Choose based on your strengths and placement goals. 💡",
+        "CSE and IT are popular for placements, while ECE, EEE, MECH and CIVIL also have strong academic support and industry tie-ups. 📘"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "revaluation",
+      "patterns": [
+        "How do I apply for revaluation?",
+        "What is the revaluation fee?",
+        "Can I get photocopy of answer sheet?",
+        "What is the revaluation timeline?",
+        "How much does valuation cost?",
+        "When can I request photocopy?",
+        "Is revaluation allowed for arrear papers?",
+        "What are the dates for revaluation?",
+        "How do I submit revaluation form?",
+        "Do you provide photocopy of exam paper?",
+        "How long does revaluation take?",
+        "When are revaluation results out?",
+        "What is the process for paper scrutiny?",
+        "Can I apply for revaluation online?",
+        "What documents are needed for revaluation?"
+      ],
+      "responses": [
+        "Revaluation can be applied through the college office after results. The fee is usually around **₹1,200 per subject** and photocopy request is separate. 🧾",
+        "You can request an answer sheet photocopy first, then apply for revaluation if needed. Timeline is typically within **15 days of result publication**. ⏳",
+        "Submit the revaluation form with the required fee on time. The process and dates are announced by the **examination cell** after result declaration. 📌"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "timetable",
+      "patterns": [
+        "Where can I see the timetable?",
+        "How do I check class hours?",
+        "Is the timetable on the portal?",
+        "When do classes start?",
+        "What are the lecture timings?",
+        "How do I download the schedule?",
+        "Is there a separate exam timetable?",
+        "How many hours is each class?",
+        "Where is the weekly timetable?",
+        "What is the morning batch timing?",
+        "Does the portal show the timetable?",
+        "Can I view my class schedule online?",
+        "What is the college time table?",
+        "How do I check my section timetable?",
+        "Tell me about class timings"
+      ],
+      "responses": [
+        "The class timetable is available on the **student portal** under ‘Academic Schedule’. Regular classes usually run from **9 AM to 4 PM** with breaks. 📅",
+        "Check the portal for your branch and section timetable. Lectures are typically **6 hours per day** with lab slots on alternate days. 🕘",
+        "Timetable updates are posted each semester. If you have trouble accessing it, contact the **academic office** or class coordinator. 💻"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "How do I get faculty directory?",
+        "What are the office hours for professors?",
+        "How do I email my lecturer?",
+        "What is the email format for staff?",
+        "Can I meet the faculty advisor?",
+        "Where is the faculty list?",
+        "What are the department faculty details?",
+        "How do I contact my HOD?",
+        "Is there a list of professors online?",
+        "When are faculty available for consultation?",
+        "What is the teacher email format?",
+        "Do you have faculty contact info?",
+        "How can I see office timings?",
+        "What is the faculty directory link?",
+        "How do I reach the placement coordinator?"
+      ],
+      "responses": [
+        "The faculty directory is available on the college website or academic portal. Most staff emails follow the format **firstname.lastname@college.edu.in**. 📧",
+        "Faculty office hours are usually **2-4 PM** on weekdays. Check with your department office for exact slots and appointments. 🕑",
+        "For professor contact, use the departmental notice board or website. If you need a specific email, follow the **firstname.lastname@college.edu.in** pattern. 🧑‍🏫"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "What are library timings?",
+        "How many books can I borrow?",
+        "What is the library fine?",
+        "Do you have an e-library?",
+        "When does the library open?",
+        "Can I renew books online?",
+        "What is the borrowing limit?",
+        "How much is the late fee?",
+        "Is the digital library accessible?",
+        "What are the rules for library use?",
+        "When does the library close?",
+        "How many days can I keep a book?",
+        "Does library open on weekends?",
+        "Can I use the library after hours?",
+        "Are journals available in the e-library?"
+      ],
+      "responses": [
+        "Library hours are typically **8 AM to 8 PM** on weekdays, and **9 AM to 5 PM** on Saturdays. It remains closed on Sundays. 📚",
+        "Students can borrow up to **3 books for 14 days**. Fine is usually **₹5 per day** after the due date. 💸",
+        "Yes, there is an e-library with journals and digital resources. Use your college credentials to access it through the library portal. 🌐"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "What sports facilities are there?",
+        "Do you have a gym?",
+        "Tell me about sports events.",
+        "Is there a football ground?",
+        "How can I join the cricket team?",
+        "What indoor games are available?",
+        "Are there sports scholarships?",
+        "What fitness amenities exist?",
+        "Do students get access to the gym?",
+        "What is the athletics facility?",
+        "Is there a basketball court?",
+        "What competitions are held?",
+        "Can I play volleyball on campus?",
+        "How do I register for sports events?",
+        "Does the college host annual sports day?"
+      ],
+      "responses": [
+        "The campus has sports facilities like **football, cricket, basketball, volleyball, and a gym**. Annual sports events are held every year. 🏅",
+        "Yes, the college gym is available for students with a nominal fee. Sports teams are formed for inter-college tournaments. 💪",
+        "For sports events and registrations, contact the Physical Education department. They organize activities like athletics, indoor games, and tournaments. 🏀"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How do I apply through TNEA?",
+        "What is the admission cutoff?",
+        "Which documents are required?",
+        "Is counseling through TNEA mandatory?",
+        "What is the fee for admission?",
+        "How to get admission in Tamil Nadu engineering college?",
+        "What is the TNEA counselling process?",
+        "Do you accept management quota?",
+        "What are the required certificates?",
+        "When does admission start?",
+        "How much is the cutoff for CSE?",
+        "What is the eligibility for admission?",
+        "Can I get direct admission?",
+        "What is the last date for application?",
+        "How do I upload documents?"
+      ],
+      "responses": [
+        "Admission is through **TNEA counseling** based on 12th standard marks. You need original certificates, transfer certificate, and community certificate. 🎓",
+        "Cutoff varies by branch; CSE/IT usually have higher cutoffs. Complete the TNEA registration and choice filling on the official portal. 📝",
+        "Upload documents like **HSC mark sheet, transfer certificate, photo, and Aadhaar**. Check the admission brochure for the exact checklist. 📂"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "wifi",
+      "patterns": [
+        "How do I login to college Wi-Fi?",
+        "Is there campus Wi-Fi?",
+        "What is the Wi-Fi helpdesk number?",
+        "My Wi-Fi is not working.",
+        "Do I need credentials for Wi-Fi?",
+        "How can I get internet access in hostel?",
+        "What is the Wi-Fi login portal?",
+        "Who do I contact for Wi-Fi issues?",
+        "What is the network username?",
+        "Can I use Wi-Fi in labs?",
+        "How to reset Wi-Fi password?",
+        "Does the college provide free Wi-Fi?",
+        "What is the Wi-Fi support email?",
+        "How to connect to campus Wi-Fi?",
+        "Which SSID should I use?"
+      ],
+      "responses": [
+        "College Wi-Fi is available in academic blocks and hostels. Login with your **student ID and password** on the network portal. 🌐",
+        "If Wi-Fi is not working, contact the helpdesk or IT support desk. They can reset your credentials and check connectivity. 🛠️",
+        "Use the official SSID and your college login details. For issues, the IT helpdesk is the best point of contact. 📞"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "What scholarships are available?",
+        "Do you have merit scholarship?",
+        "How do I apply for government scholarship?",
+        "What is the scholarship amount?",
+        "Which scholarships can engineering students get?",
+        "Is there a scholarship for SC/ST students?",
+        "How do I submit scholarship documents?",
+        "What is the eligibility for merit scholarship?",
+        "When is the scholarship application due?",
+        "Are there fee waiver scholarships?",
+        "Can I get a state government scholarship?",
+        "How to check scholarship status?",
+        "Do you offer academic scholarships?",
+        "What papers are needed for scholarship?",
+        "Is there scholarship for sports quota?"
+      ],
+      "responses": [
+        "Scholarships include **merit-based** and **government schemes** like NTSE, ST/SC and minority scholarships. Apply online through the scholarship portal. 🎓",
+        "Eligibility usually depends on marks and family income. Submit your bank details, Aadhaar, and income certificate to the scholarship cell. 💼",
+        "For government scholarship, register on the State Scholarship Portal and share the endorsement from the college. Keep certificates and fee receipt ready. 🧾"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "I don't know what to ask",
+        "Hmm",
+        "Can you help?",
+        "I am not sure",
+        "This is strange",
+        "What should I say?",
+        "I have a vague question",
+        "I am confused",
+        "Say something useful",
+        "I am lost",
+        "This is not what I expected",
+        "I don't understand",
+        "Can you repeat?",
+        "I need help please",
+        "No idea"
+      ],
+      "responses": [
+        "I’m sorry, I didn’t understand that. Can you please ask about admission, fees, exams, hostel, or placements? 🤔",
+        "Hmm, I’m not sure how to answer that. Try asking about college rules, departments, or exam schedules. 📚",
+        "I didn’t get that. Could you rephrase your query or ask something specific like ‘admission process’ or ‘hostel fees’? 📝"
+      ],
+      "context": ""
+    }
+  ]
+}
